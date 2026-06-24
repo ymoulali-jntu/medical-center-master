@@ -1,0 +1,341 @@
+/*
+
+	bookish1.0 by nodethirtythree design
+	http://www.nodethirtythree.com
+	hope you enjoy it :)
+
+*/
+*
+{
+margin:0px;
+padding: 0px;
+}
+
+body
+{
+background: #fff url('images/bg.gif');
+font-family: "Times New Roman", helvetica, sans-serif;
+color: #000000;
+
+}
+
+#bodytable {
+    background-color: #FFFFCC;
+}
+
+#page_title
+{
+background: #824900 url('images/thbg.gif') repeat-x;
+height: 40px;
+width: 895px;
+margin-top: 5px;
+padding-top: 5px;
+margin-bottom: 0px;
+color: #fff;
+font-size: 26px;
+font-weight: bold;
+text-align: center;
+}
+#page_sub_title
+{
+background: #824900 url('images/thbg.gif') repeat-x;
+height: 40px;
+width: 895px;
+margin-top: 5px;
+padding-top: 5px;
+margin-bottom: 0px;
+color: #fff;
+font-size: 24px;
+text-align: center;
+vertical-align: middle;
+}
+
+#page_body{
+ background-color: #FFFFCC;
+}
+.stock_table{
+        width: 100%;
+        border: 5px;
+        border-collapse: collapse;
+        background: #FFFAF4 url('images/trbg2.gif') repeat-x;
+}
+.stock_table th{
+background: #824900 url('images/thbg.gif') repeat-x;
+height: 45px;
+padding-left: 11px;
+padding-right: 11px;
+color: #fff;
+text-align: left;
+border-left: solid 1px #A8814D;
+border-bottom: solid 2px #ffffff;
+
+}
+.stock_table tr{
+    height: 40px;
+}
+.stock_table td
+{
+padding-left: 11px;
+padding-right: 11px;
+border-left: solid 1px #EED9C3;
+border-bottom: solid 1px #ffffff;
+}
+stock_table td.comname
+{
+font-weight: bold;
+}
+.stock_table tr.rowA
+{
+background: #FFF0DE url('images/trbg1.gif') repeat-x;
+}
+
+.stock_table tr.rowB
+{
+background: #FFFAF4 url('images/trbg2.gif') repeat-x;
+}
+.stock_table th,.stock_table td{
+    border:  1px solid #666666;
+}
+
+#outer
+{
+width: 895px;
+background: #FFFFFF;/* #fff url('images/mainbg.gif'); */
+margin: 10px auto 0px auto;
+padding: 5px 5px 5px 5px;
+/* border:  2px solid #000000;  */
+}
+
+
+
+#header
+{
+position:relative ;
+height: 120px;
+background-image: url('images/headbg.gif');
+}
+
+#header h1
+{
+position: absolute;
+
+font-size: 16px;
+padding-top: 5px;
+padding-left: 15px;
+color: #fff;
+}
+
+#header h1 strong
+{
+font-size: 28px;
+color: #fff;
+}
+#header h1 span
+{
+color: #D97900;
+}
+
+
+
+#menu
+{
+position: absolute;
+right: 0px;
+padding-right: 26px;
+bottom: 14px;
+color: #A75300;
+}
+
+#menu ul
+{
+list-style: none;
+}
+
+#menu li
+{
+float: left;
+border-left: solid 1px #A75300;
+padding-left: 8px;
+margin-left: 8px;
+}
+
+#menu li.first
+{
+margin-left: 0px;
+padding-left: 0px;
+border-left: 0px;
+}
+
+#menu a
+{
+color: #fff;
+
+}
+#menu a:hover
+{
+text-decoration: none;
+background-color: #D97900;
+color: #FFFAF3;
+}
+
+#footer
+{
+width: 758px;
+margin: 12px auto 0px auto;
+padding-bottom: 24px;
+text-align: center;
+color: #6495A3;
+}
+
+#footer h2
+{
+    font-size: 12px;
+    color: firebrick;
+}
+#footer h2 strong
+{
+    font-size: 26px;
+}
+
+#footer a:hover
+{
+background-color: #7DAFBD;
+color: #E8FAFF;
+}
+
+#fieldset {
+
+width:350px; /* or a percentage, or whatever */
+margin-bottom: 30px;
+
+border: 2px solid #000000;
+border-color: slategrey;
+}
+#logintable {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+#logintable th{
+   font-size: 18px;
+}
+
+/* Modern Login Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    padding: 20px;
+}
+
+.login-box {
+    background: #ffffff;
+    border: 2px solid #824900;
+    border-radius: 8px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    color: #824900;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #824900;
+    box-shadow: 0 0 0 3px rgba(130, 73, 0, 0.1);
+}
+
+.form-actions {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-login {
+    background-color: #824900;
+    color: #fff;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn-login:hover {
+    background-color: #a35a00;
+    transform: translateY(-2px);
+}
+
+.btn-login:active {
+    transform: translateY(0);
+}
+
+.error-message {
+    color: #d32f2f;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ffebee;
+    border-radius: 4px;
+    font-size: 14px;
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #outer {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    #page_title, #page_sub_title {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    .login-box {
+        padding: 20px;
+    }
+    
+    .stock_table {
+        font-size: 12px;
+    }
+    
+    .stock_table th, .stock_table td {
+        padding: 5px;
+    }
+}
+
+
+
